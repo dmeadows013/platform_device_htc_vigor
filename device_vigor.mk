@@ -63,6 +63,10 @@ PRODUCT_COPY_FILES += \
     device/htc/vigor/keylayout/atmel-touchscreen.kl:system/usr/keylayout/atmel-touchscreen.kl \
     device/htc/vigor/keylayout/h2w_headset.kl:system/usr/keylayout/h2w_headset.kl \
     device/htc/vigor/keylayout/vigor-keypad.kl:system/usr/keylayout/vigor-keypad.kl
+    
+# Camera
+PRODUCT_PACKAGES += \
+	Camera
 
 # Input device config
 PRODUCT_COPY_FILES += \
